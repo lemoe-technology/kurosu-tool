@@ -1,0 +1,31 @@
+{
+  "name": "kurosu-tool",
+  "description": "",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "bin": {
+    "kurosu-tool": "./src/index.js"
+  },
+  "scripts": {
+    "build": "pkg -t node16-win-x64 --out-path dist .",
+    "lint": "eslint --fix --ext .js --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "axios-retry": "^3.3.1",
+    "chalk": "^4.1.2",
+    "cli-progress": "^3.11.2",
+    "js-yaml": "^4.1.0",
+    "node-html-parser": "^5.4.1",
+    "parse-torrent": "^9.1.5",
+    "request": "^2.88.2",
+    "retry-request": "^5.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "pkg": "^5.8.0",
+    "prettier": "^2.7.1"
+  }
+}

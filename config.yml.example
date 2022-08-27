@@ -1,0 +1,105 @@
+qbittorrent:
+  url: http://127.0.0.1:8080
+  username: admin
+  password: adminadmin
+  directory: ./torrents
+  params:
+    filter: seeding
+    category:
+    tag:
+sites:
+  -
+    name: 0ff
+    url: https://pt.0ff.cc
+    cookie:
+    enable: true
+  -
+    name: 1ptba
+    url: https://1ptba.com
+    cookie:
+    enable: true
+  -
+    name: 52pt
+    url: https://52pt.site
+    cookie:
+    enable: true
+  -
+    name: btschool
+    url: https://pt.btschool.club
+    cookie:
+    enable: true
+  -
+    name: carpt
+    url: https://carpt.net
+    cookie:
+    enable: true
+  -
+    name: discfan
+    url: https://discfan.net
+    cookie:
+    enable: true
+  -
+    name: gainbound
+    url: https://gainbound.net
+    cookie:
+    enable: true
+  -
+    name: haidan
+    url: https://www.haidan.video
+    cookie:
+    enable: true
+  -
+    name: hdarea
+    url: https://www.hdarea.co
+    cookie:
+    enable: true
+  -
+    name: hdatmos
+    url: https://hdatmos.club
+    cookie:
+    enable: true
+  -
+    name: hddolby
+    url: https://www.hddolby.com
+    cookie:
+    enable: true
+  -
+    name: hdfans
+    url: https://hdfans.org
+    cookie:
+    enable: true
+  -
+    name: hdmayi
+    url: http://hdmayi.com
+    cookie:
+    enable: true
+  -
+    name: hdtime
+    url: https://hdtime.org
+    cookie:
+    enable: true
+  -
+    name: hdpt
+    url: https://hdpt.xyz
+    cookie:
+    enable: true
+  -
+    name: hdzone
+    url: http://hdzone.me
+    cookie:
+    enable: true
+  -
+    name: msg
+    url: https://pt.msg.vg
+    cookie:
+    enable: true
+  -
+    name: piggo
+    url: https://piggo.me
+    cookie:
+    enable: true
+  -
+    name: pttime
+    url: https://www.pttime.org
+    cookie:
+    enable: true
