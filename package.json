@@ -1,7 +1,11 @@
 {
   "name": "kurosu-tool",
-  "description": "",
+  "description": "Cross seed tool.",
   "version": "1.0.0",
+  "homepage": "https://github.com/lemoe-technology/kurosu-tool",
+  "author": "Lemoe",
+  "repository": "github:lemoe-technology/kurosu",
+  "license": "MIT",
   "main": "./src/index.js",
   "bin": {
     "kurosu-tool": "./src/index.js"
